@@ -39,7 +39,7 @@
 body {
     background-color: var(--color-primary);
     font-family: "Poppins", sans-serif;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: var(--color-white);
     transition: all 0.4 ease-in-out;
 }
@@ -286,12 +286,12 @@ section {
     .left-about {
         padding-right: 5rem;
         p {
-            line-height: 2rem;
+            line-height: 1.5rem;
             padding: 1rem;
             color: var(--color-grey-1);
         }
         h4 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             text-transform: uppercase;
         }
     }
@@ -337,8 +337,8 @@ section {
                     .css {
                         width: 90%;
                     }
-                    .javascript {
-                        width: 75%;
+                    .js {
+                        width: 80%;
                     }
                     .php {
                         width: 80%;
@@ -347,7 +347,7 @@ section {
                         width: 80%;
                     }
                     .mysql {
-                        width: 70%;
+                        width: 80%;
                     }
                     .figma {
                         width: 90%;
@@ -552,7 +552,7 @@ section {
             }
             p {
                 color: var(--color-grey-2);
-                line-height: 2rem;
+                line-height: 1.5rem;
                 padding-bottom: 1rem;
             }
         }
@@ -572,7 +572,7 @@ section {
         }
         p {
             margin: 1rem 0;
-            line-height: 2rem;
+            line-height: 1.5rem;
         }
         .contact-info {
             .contact-item {
@@ -667,6 +667,7 @@ section {
     border-radius: 30px;
     color: inherit;
     font-weight: 600;
+    font-size: 1.1rem;
     position: relative;
     border: 1px solid var(--color-secondary);
     display: flex;
@@ -709,7 +710,7 @@ section {
     h2 {
         position: relative;
         text-transform: uppercase;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 700;
         span {
             color: var(--color-secondary);
@@ -723,7 +724,7 @@ section {
             z-index: -1;
             transform: translate(-50%, -50%);
             font-weight: 800;
-            font-size: 6.3rem;
+            font-size: 5.5rem;
         }
     }
 }
